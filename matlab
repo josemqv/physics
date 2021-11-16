@@ -1,5 +1,28 @@
+# Import package
+import scipy.io
+import matplotlib.pyplot as plt
+
+# Load MATLAB file: mat
+file='albeck_gene_expression.mat'
+
+mat=scipy.io.loadmat(file)
+# Print the datatype type of mat
+print(type(mat)) 
+
+import matplotlib.pyplot as plt
 # Print the keys of the MATLAB dictionary
-print(mat.keys())
+print(mat.keys())# Import package
+import scipy.io
+
+# Load MATLAB file: mat
+file='albeck_gene_expression.mat'
+
+mat=scipy.io.loadmat(file)
+# Print the datatype type of mat
+print(type(mat)) 
+
+import matplotlib.pyplot as plt
+
 
 # Print the type of the value corresponding to the key 'CYratioCyt'
 print(type(mat['CYratioCyt']))
