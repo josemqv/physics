@@ -1,6 +1,8 @@
 # Import package
 import scipy.io
 import matplotlib.pyplot as plt
+import numpy as np
+
 
 # Load MATLAB file: mat
 file='albeck_gene_expression.mat'
